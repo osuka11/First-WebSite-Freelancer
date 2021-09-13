@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Diseñador FreeLancer.</title>
+
+    <link rel="preload" href="style/normalize.css" as="style">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&family=PT+Sans+Narrow&family=PT+Serif&display=swap" 
+    rel="stylesheet">
+    <link rel="preload" href="style/estilos.css" as="style">
+    <link href="style/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Oscar Rincón <span>Ingenierio en Sistemas</span></h1>
+
+    </header>
+    <div class="nav-bg">
+        <nav class="navegacion-principal">
+            <a href="#">Inicio</a>
+            <a href="#">Mis servicios</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+            
+        </nav>
+    </div>
+
+
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2 class="titulo">Diseño y Desarollo Web <span>FreeLancer</span></h2>
+            <div class="hero-contenido-ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+
+                <p>Tecomán, Colima</p>
+            </div>
+            <a href="#" class="button">Contactar</a>
+        </div>
+    </section>
+   
+    <div class="main"> <!-- Este div con clase main sale sobrando
+                        pero lo puse por que no hallaba otra forma de poder centrar el main-->
+
+    
+        <main class="contenedor sombra">
+            <h2>Mis Servicios:</h2>
+            <div class="servicios">
+                <section class="servicio">
+                    <h3>Diseño Web</h3>
+                    <div class="iconos">
+                    
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                            <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+                        </svg>
+
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex modi vel vero, iusto aperiam expedita cupiditate delectus perspiciatis 
+                    provident maxime cumque dolore distinctio in labore ad explicabo aut asperiores? Qui?</p>
+                </section>
+                
+                <section class="servicio">
+                    <h3>Base de datos</h3>
+                    <div class="iconos">
+
+            
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <ellipse cx="12" cy="6" rx="8" ry="3"></ellipse>
+                            <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+                            <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+                        </svg>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex modi vel vero, iusto aperiam expedita cupiditate delectus perspiciatis 
+                    provident maxime cumque dolore distinctio in labore ad explicabo aut asperiores? Qui?</p>
+                </section>
+
+                <section class="servicio">
+                    <h3>E-Commerce</h3>
+                    <div class="iconos">
+
+                    
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="6" cy="19" r="2" />
+                            <circle cx="17" cy="19" r="2" />
+                            <path d="M17 17h-11v-14h-2" />
+                            <path d="M6 5l14 1l-1 7h-13" />
+                        </svg>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex modi vel vero, iusto aperiam expedita cupiditate delectus perspiciatis 
+                    provident maxime cumque dolore distinctio in labore ad explicabo aut asperiores? Qui?</p>
+                
+                </section>
+            </div>          <!--Cierre Clase:Servicios-->
+    
+        
+            <section>
+                <h2>Contacto</h2>
+
+                <form class="formulario">
+                    <fieldset>
+                        <legend>
+                            Puedes contactarme, solo deja tus datos
+                            <!-- Esta parte sirve para dar indicaciones sobre el formulario-->
+                        </legend>
+                        <div class="contenedor-campos"> 
+                            <div class="campo">
+                                <label>Nombre:</label>
+                                <input type="text" placeholder="Tu nombre">     
+                            </div>
+                            
+                            <div class="campo">
+                                <label>Teléfono:</label>
+                                <input type="tel" placeholder="Tu teléfono">
+                            </div>
+
+                            <div class="campo">
+                                <label>Correo:</label>
+                                <input type="email" placeholder="Tu correo eléctronico">
+                            </div >
+
+                            <div class="campo">
+                                <label>Comentario</label>
+                                <textarea placeholder="Comentarios..."></textarea>
+                            </div>
+
+                        </div>      <!--Termina clase: contenedor-campos-->
+                    
+                        <div class="alinear-derecha flex">       <!--Botón Enviar-->
+                            <input type="submit" value="Enviar" class="button w-sm-100">
+                        </div>
+                            
+
+
+                    </fieldset>
+
+                </form>
+            </section>
+        </main>
+    </div>  
+    <footer class="footer">
+        Todos los Derechos Reservados. Oscar Eduardo Rincón Ramirez 
+    </footer>
+
+    
+    
+
+   
+
+    
+
+    
+</body>
+</html>
